@@ -1,0 +1,33 @@
+
+/*dashboard*/
+.dashboard-title-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.dashboard-clientes-container th{
+    width: 25%;
+}
+
+.dashboard-clientes-container {
+    display: inline-block;
+}
+
+#search-container {
+    display: inline-block;
+}
+
+.welcome{
+    padding-top: 100px;
+    padding-left: 50px;
+    height: 500px;
+    color: white;
+}
+
+.formulario {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
