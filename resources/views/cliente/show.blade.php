@@ -42,6 +42,9 @@
             <tr>
                 <th scope='col'>#</th>
                 <th scope='col'>Rua</th>
+                <th scope='col'>Nº</th>
+                <th scope='col'>Complemento</th>
+                <th scope='col'>Bairro</th>
                 <th scope='col'>Cidade</th>
                 <th scope='col'>UF</th>
                 <th scope='col'>Ações</th>
@@ -52,6 +55,9 @@
                 <tr>
                     <td scoupe='row'>{{ $loop->index + 1 }}</td>
                     <td>{{ $endereco->rua }}</td>
+                    <td>{{ $endereco->numero }}</td>
+                    <td>{{ $endereco->complemento }}</td>
+                    <td>{{ $endereco->bairro }}</td>
                     <td>{{ $endereco->cidade }}</td>
                     <td>{{ $endereco->uf }}</td>
                     <td class="d-flex justify-content-start">

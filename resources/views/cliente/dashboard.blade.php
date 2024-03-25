@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'Dashboard')
+@section('title', 'Clientes')
 
 @auth
 @section('nav-btn')
